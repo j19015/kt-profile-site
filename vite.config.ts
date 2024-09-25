@@ -6,9 +6,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      base: process.env.GITHUB_PAGES
-        ? "kt-profile-site"
-        : "./",
+      base: "/kt-profile-site/",
       "@": path.resolve(__dirname, "./src"),
     },
   },
