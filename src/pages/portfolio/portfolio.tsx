@@ -1,6 +1,3 @@
-
-
-import React from "react";
 import { Card, CardHeader, CardFooter } from "@/components/ui/card";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 

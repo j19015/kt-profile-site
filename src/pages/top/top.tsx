@@ -1,6 +1,3 @@
-// src/pages/Top.jsx
-
-import React from "react";
 import {
   Card,
   CardHeader,

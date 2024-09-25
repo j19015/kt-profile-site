@@ -1,6 +1,3 @@
-
-
-import React from "react";
 import { Card, CardHeader } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress"; // shadcn/uiのProgressコンポーネント
 import { IconContext } from "react-icons";
