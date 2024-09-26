@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      base: "./",
+      base: "/kt-profile-site/",
       "@": path.resolve(__dirname, "./src"),
     },
   },
