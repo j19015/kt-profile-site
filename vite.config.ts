@@ -4,9 +4,9 @@ import { defineConfig } from "vite"
 
 export default defineConfig({
   plugins: [react()],
+  base: "./",
   resolve: {
     alias: {
-      base: "/kt-profile-site/",
       "@": path.resolve(__dirname, "./src"),
     },
   },
