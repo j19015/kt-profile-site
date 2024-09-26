@@ -9,24 +9,29 @@ import {
 } from "react-router-dom";
 import { Layout } from './components/layouts/Layout/Layout';
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Layout><Top /></Layout>,
+    },
+    {
+      path: "/skill",
+      element: <Layout><Skill /></Layout>,
+    },
+    {
+      path: "/contact",
+      element: <Layout><Contact /></Layout>,
+    },
+    {
+      path: "/portfolio",
+      element: <Layout><Portfolio /></Layout>,
+    },
+  ],
   {
-    path: "/",
-    element: <Layout><Top /></Layout>,
-  },
-  {
-    path: "/skill",
-    element: <Layout><Skill /></Layout>,
-  },
-  {
-    path: "/contact",
-    element: <Layout><Contact /></Layout>,
-  },
-  {
-    path: "/portfolio",
-    element: <Layout><Portfolio /></Layout>,
-  },
-]);
+    basename: import.meta.env.DEV ? "/" : "/レポジトリ名/",
+  }
+);
 
 
 createRoot(document.getElementById('root')!).render(
