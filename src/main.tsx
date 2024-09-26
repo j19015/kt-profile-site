@@ -29,7 +29,7 @@ const router = createBrowserRouter(
     },
   ],
   {
-    basename: import.meta.env.DEV ? "/" : "/レポジトリ名/",
+    basename: import.meta.env.DEV ? "/" : "/kt-profile-site/",
   }
 );
 
